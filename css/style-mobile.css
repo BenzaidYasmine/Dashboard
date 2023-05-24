@@ -1,0 +1,120 @@
+/*Class*/
+.title {
+    text-align: center;
+    margin: 1rem;
+}
+
+/*vp-container + header */
+
+header {
+    flex-direction: column;
+}
+
+.vp-logo a {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+header ul {
+    flex-direction: column;
+    align-items: center;
+    line-height: 0.1rem;
+
+}
+
+header ul li {
+    border-bottom: 1px dotted rgb(121, 118, 118);
+}
+
+.vp-content h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: -15rem;
+}
+
+.vp-content p {
+    text-align: center;
+    margin: 0.5rem;
+    font-size: 1rem;
+}
+
+.vp-text p {
+    margin: 1.5rem;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+/**section 2 offer **/
+
+.offer {
+    padding: 1.8rem 1rem;
+}
+
+
+.title {
+    text-align: center;
+}
+
+.offer-list {
+    flex-direction: column;
+}
+
+/*section 3 who */
+.who {
+    flex-direction: column;
+}
+
+.vp-text p {
+    align-items: center;
+}
+
+
+/*boxe avis*/
+.box {
+    flex-direction: column;
+}
+
+.box-reverse {
+    flex-direction: column-reverse;
+}
+
+.box-img img {
+    margin-top: -3rem;
+}
+
+/*Section contact*/
+
+.vp-contact-form {
+    margin-top: 1.8rem;
+    min-width: 150px;
+}
+
+.form-content {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.text-contact {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+input, textarea {
+    font: 0.5rem 'Fira Sans', sans-serif;
+    margin: 0.5rem 30%;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+button {
+    margin: 5rem auto;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+}
+.contact hand{
+    margin-right: 1rem;
+}
