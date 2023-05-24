@@ -4,10 +4,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-a11y="true"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="only screen and (max-width:500px)" href="css/style-mobile.css">
-    <title>Santé</title>
+    <title>Dashboard - Santé</title>
 
 </head>
 
@@ -107,12 +108,13 @@
     </section>-->
   
 
-
-
     <section id="stat" class="elem">
         <div class="item">  
             <li class="offer-elem">
-                <img src="images/logo.png" alt="" srcset="" class="offer-elem-img">
+                <div style="width: auto">
+                    <canvas id="mybarChart">test</canvas>
+                </div>
+
                 <div class="offer-elem-text">
                     <p>Appartement - Bordeaux 75007</p>
                     <p>11 chambres 450 m2</p>
@@ -160,11 +162,6 @@
     </section>
 
   
-
-   
-
- 
-
     <section id="contact" class="vp-contact-form">
         <div class="contact">
             <form action="submit" class="form-contact">
@@ -187,16 +184,8 @@
         </div>
     </section>
     
-
-   
-
-    <div style="width: 800px;">
-        <canvas id="mybarChart">test</canvas>
-    </div>
-
-    <script type="module" src="script.js" defer=""></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.3.0/chart.min.js" defer=""></script>
-
+    <script type="text/javascript" src="../js/chart.js"></script>
+    
     <footer>
         <p> Copyright © 2023 jane Developpeuse.</p>
     </footer>
