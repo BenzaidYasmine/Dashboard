@@ -1,5 +1,5 @@
 # Concour #7
-Mon idée était de faire un tableau de bord ( Un dashboard) pour suivre la vente de tabac en général en france métropolitaine et en cors pour l'année 2018 . On peut par exemple voir la quantité de cigarette vendu, voir le nombre de cigarre et pleins d'autres trucs vendu.
+Mon idée était de faire un tableau de bord ( Un dashboard) pour suivre la vente de tabac en général en France métropolitaine et en cors pour l'année 2018 . On peut par exemple voir la quantité de cigarette vendu, voir le nombre de cigarre et pleins d'autres trucs vendu.
 
 Côté technique, j'ai utilisé HTML, java script et CSS avec ChartJS pour les graphiques.
 
