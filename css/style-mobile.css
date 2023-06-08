@@ -45,43 +45,7 @@ header ul li {
     line-height: 2rem;
 }
 
-/**section 2 offer **/
 
-.offer {
-    padding: 1.8rem 1rem;
-}
-
-
-.title {
-    text-align: center;
-}
-
-.offer-list {
-    flex-direction: column;
-}
-
-/*section 3 who */
-.who {
-    flex-direction: column;
-}
-
-.vp-text p {
-    align-items: center;
-}
-
-
-/*boxe avis*/
-.box {
-    flex-direction: column;
-}
-
-.box-reverse {
-    flex-direction: column-reverse;
-}
-
-.box-img img {
-    margin-top: -3rem;
-}
 
 /*Section contact*/
 

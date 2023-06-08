@@ -1,19 +1,19 @@
-// Données des ventes mensuelles de PC gamer en 2022
+// DATA: vente de cigarette en Corse depuis 2018
 var mois = ['Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Juin', 'Juil', 'Août', 'Sept', 'Oct', 'Nov', 'Déc'];
-var ventes = [500, 750, 600, 900, 1200, 800, 1100, 950, 700, 850, 1000, 1300];
+var ventes = [45779760,69093480,30725520,45646480,57057120,59025960,77204440,86396240,54571880,50804480,43488400,41706080,42801560];
 
 // Création du graphique à barres
-var ctx = document.getElementById('mybarChart').getContext('2d');
+var ctx = document.getElementById('barCors').getContext('2d');
 var barChart = new Chart(ctx, {
   type: 'bar',
   data: {
     labels: mois,
     datasets: [{
-      label: 'Ventes mensuelles de pc gamer',
+      label: 'Nombre de cigarette vendu par mois',
       data: ventes,
-      backgroundColor: 'rgba(54, 162, 235, 0.7)', // Couleur des barres
-      borderColor: 'rgba(54, 162, 235, 1)', // Couleur des bordures
-      borderWidth: 1
+      backgroundColor: '#fba365', // Couleur des barres
+      borderColor: '#ff7100', // Couleur des bordures
+      borderWidth: 2
     }]
   },
   options: {
@@ -28,10 +28,11 @@ var barChart = new Chart(ctx, {
     plugins: {
       title: {
         display: true,
-        text: "Évolution des ventes mensuelles de PC gamer en 2022",
+        text: "Vente de cigarette en Corse depuis 2018",
         font: {
           size: 16,
-          weight: 'bold'
+          weight: 'bold', 
+          margin: '100px',
         }
       }
     }
