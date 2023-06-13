@@ -8,3 +8,5 @@ Le but principale est de s'éxércer pour être plus alaise côté front. Le sec
 Pour ce qui est des données j'ai opté pour l'utilisation d'une API gratuite qu'on trouve sur  https://www.data.gouv.fr. L'API traite la ventes de tabacs manufacturés en France métropolitaine et en corse en 2018
 
 
+Voici le lien du site (sans responsive,... en cours de traitement) janedeveloppeusedashboard.netlify.app 
+![image](https://github.com/BenzaidYasmine/Dashboard/assets/17700569/7192ea18-0b4a-41ab-b090-fa1624ce41a0)
