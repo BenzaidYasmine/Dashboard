@@ -9,4 +9,6 @@ Pour ce qui est des données j'ai opté pour l'utilisation d'une API gratuite qu
 
 
 Voici le lien du site (sans responsive,... en cours de traitement) janedeveloppeusedashboard.netlify.app 
-![image](https://github.com/BenzaidYasmine/Dashboard/assets/17700569/7192ea18-0b4a-41ab-b090-fa1624ce41a0)
+![image](https://github.com/BenzaidYasmine/Dashboard/assets/17700569/bb63d91c-65d1-491b-90f7-dd8d0642c60e)
+
+
